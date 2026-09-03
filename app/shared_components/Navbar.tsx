@@ -150,7 +150,7 @@ export default function Navbar() {
             {/* ================= DESKTOP NAVBAR ================= */}
             <header className="fixed inset-x-0 top-0 z-50 hidden lg:block">
                 <nav className="border-b border-white/30 bg-white/70 shadow-sm backdrop-blur-xl">
-                    <div className="mx-auto flex h-24 max-w-7xl items-center gap-8 px-6">
+                    <div className="mx-auto flex h-20 max-w-7xl items-center gap-8 px-6">
                         {/* Logo */}
                         <Link
                             href="#"
@@ -162,7 +162,7 @@ export default function Navbar() {
                                 alt="Logo"
                                 width={150}
                                 height={60}
-                                className="h-auto w-32 object-contain"
+                                className="h-auto w-36 object-contain"
                                 priority
                             />
                         </Link>
