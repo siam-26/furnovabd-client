@@ -99,7 +99,7 @@ export default function CategoryNavbar() {
         useState<Category | null>(null);
 
     return (
-        <nav className="hidden md:block bg-zinc-900 text-white">
+        <nav className="hidden lg:block bg-zinc-900 text-white mt-20">
             <div className="relative" onMouseLeave={() => {
                 setActiveCategory(null);
             }}>

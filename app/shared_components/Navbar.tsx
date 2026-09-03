@@ -237,7 +237,7 @@ export default function Navbar() {
             {/* ================= MOBILE / TABLET NAVBAR ================= */}
             <header className="fixed inset-x-0 top-0 z-50 lg:hidden">
                 <nav className="border-b border-white/30 bg-white/70 shadow-sm backdrop-blur-xl">
-                    <div className="flex h-20 items-center justify-between px-4 sm:px-6">
+                    <div className="flex h-16 items-center justify-between px-4 sm:px-6">
                         {/* Hamburger */}
                         <button
                             type="button"
